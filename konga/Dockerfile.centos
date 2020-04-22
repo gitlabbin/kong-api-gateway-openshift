@@ -1,4 +1,5 @@
-FROM openshift/jenkins-slave-base-centos7
+#FROM openshift/jenkins-slave-base-centos7
+FROM centos:centos7
 
 USER root
 RUN yum install epel-release wget curl nc hostname git -y
